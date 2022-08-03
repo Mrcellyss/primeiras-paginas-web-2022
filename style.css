@@ -2,6 +2,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
 header {
 	background: #323232;
 	padding: 20px 0;    
@@ -47,9 +54,9 @@ div h1 {
     background: #C78C19;
 }
 
-
 .filmes {
-    display: inline;
+    display: inline-block;
+    margin-top: 200px;
 }
 
 .filmes div {
@@ -101,13 +108,15 @@ footer{
 
 footer img {
     width: 120px;
-	margin: 30px 30px 5px auto;
+	margin: 30px 30px 5px 45%;
+    
 
 }
 
 .copyrigth {
     color: azure;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .animacao {
